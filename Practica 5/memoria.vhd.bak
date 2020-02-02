@@ -1,0 +1,46 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity memoria is
+	port(
+			direccion : in std_logic_vector(2 downto 0);
+			prueba : out std_logic_vector (1 downto 0);
+			vf : out std_logic;
+			liga : out std_logic_vector (2 downto 0);
+			memoria_con : out std_logic_vector(9 downto 0);
+			edo_pre : out std_logic_vector(2 downto 0));
+end memoria;
+
+architecture Behavioral of memoria is
+	type mem is array (0 to 5) of std_logic_vector (9 downto 0);
+	
+	signal internal_mem : mem;
+	signal temp : STD_LOGIC_VECTOR (9 downto 0);
+	
+	 begin 
+		--Direccion <= prueba(9 - 8) valorFalso(7) liga(6 - 4) Salida(3 - 0)
+		--Estado 0
+		internal_mem(0) <= "0100100010";
+		--Estado 1
+		internal_mem(1) <= "1100110000";
+		--Estado 3
+		internal_mem(2) <= "0001001000";
+		--Estado 2
+		internal_mem(3) <= "1000010001";
+		--Estado 4
+		internal_mem(4) <= "1100000101";
+		
+		
+		process(direccion)
+			begin
+				edo_pre <= direccion(2 downto 0);
+				temp <= internal_mem(conv_integer(unsigned(direccion(2 downto 0))));
+				memoria_con <= temp;
+				prueba <= temp(9 downto 8);
+				vf <= temp(7);
+				liga <= temp(6 downto 4);
+			end process;
+			
+end Behavioral;

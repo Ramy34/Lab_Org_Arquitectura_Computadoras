@@ -1,0 +1,114 @@
+$comment
+	File created using the following command:
+		vcd file practica2_ff.msim.vcd -direction
+$end
+$date
+	Sun Sep 01 23:33:09 2019
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module practica2_ff_vlg_vec_tst $end
+$var reg 1 ! CLK $end
+$var reg 1 " E $end
+$var wire 1 # Salida $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * ~QUARTUS_CREATED_GND~I_combout $end
+$var wire 1 + ~QUARTUS_CREATED_UNVM~~busy $end
+$var wire 1 , ~QUARTUS_CREATED_ADC1~~eoc $end
+$var wire 1 - ~QUARTUS_CREATED_ADC2~~eoc $end
+$var wire 1 . Salida~output_o $end
+$var wire 1 / CLK~input_o $end
+$var wire 1 0 CLK~inputclkctrl_outclk $end
+$var wire 1 1 E~input_o $end
+$var wire 1 2 inst4~0_combout $end
+$var wire 1 3 FF1~q $end
+$var wire 1 4 inst5~0_combout $end
+$var wire 1 5 FF0~q $end
+$var wire 1 6 inst6~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+z+
+z,
+z-
+0.
+0/
+00
+11
+02
+03
+14
+05
+06
+$end
+#100000
+1!
+1/
+10
+15
+04
+12
+#200000
+0!
+0/
+00
+#300000
+1!
+1/
+10
+05
+13
+14
+#400000
+0!
+0/
+00
+#500000
+1!
+1/
+10
+15
+16
+1.
+1#
+#600000
+0!
+0/
+00
+#700000
+1!
+1/
+10
+#800000
+0!
+0/
+00
+#900000
+1!
+1/
+10
+#1000000

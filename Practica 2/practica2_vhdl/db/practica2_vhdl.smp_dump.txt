@@ -1,0 +1,7 @@
+
+State Machine - |practica2|practica2_vhdl:inst|epresente
+Name epresente.s3 epresente.s2 epresente.s1 epresente.s0 
+epresente.s0 0 0 0 0 
+epresente.s1 0 0 1 1 
+epresente.s2 0 1 0 1 
+epresente.s3 1 0 0 1 

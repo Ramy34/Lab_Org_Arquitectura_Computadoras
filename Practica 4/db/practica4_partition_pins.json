@@ -1,0 +1,173 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Display2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidas[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidas[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidas[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidas[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidas[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Salidas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "entradas[3]",
+					"strict" : false
+				},
+				{
+					"name" : "entradas[0]",
+					"strict" : false
+				},
+				{
+					"name" : "entradas[1]",
+					"strict" : false
+				},
+				{
+					"name" : "entradas[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Selector",
+					"strict" : false
+				},
+				{
+					"name" : "Boton",
+					"strict" : false
+				},
+				{
+					"name" : "Reloj",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

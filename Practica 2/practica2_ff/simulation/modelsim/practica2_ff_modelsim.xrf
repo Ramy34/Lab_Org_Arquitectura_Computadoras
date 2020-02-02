@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ramse/Downloads/Practica 2/practica2_ff/practica2_ff.bdf
+source_file = 1, C:/Users/ramse/Downloads/Practica 2/practica2_ff/db/practica2_ff.cbx.xml
+design_name = hard_block
+design_name = practica2_ff
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, practica2_ff, 1
+instance = comp, \Salida~output\, Salida~output, practica2_ff, 1
+instance = comp, \CLK~input\, CLK~input, practica2_ff, 1
+instance = comp, \CLK~inputclkctrl\, CLK~inputclkctrl, practica2_ff, 1
+instance = comp, \E~input\, E~input, practica2_ff, 1
+instance = comp, \inst4~0\, inst4~0, practica2_ff, 1
+instance = comp, \inst5~0\, inst5~0, practica2_ff, 1
+instance = comp, \~QUARTUS_CREATED_UNVM~\, ~QUARTUS_CREATED_UNVM~, practica2_ff, 1
+instance = comp, \~QUARTUS_CREATED_ADC1~\, ~QUARTUS_CREATED_ADC1~, practica2_ff, 1
+instance = comp, \~QUARTUS_CREATED_ADC2~\, ~QUARTUS_CREATED_ADC2~, practica2_ff, 1

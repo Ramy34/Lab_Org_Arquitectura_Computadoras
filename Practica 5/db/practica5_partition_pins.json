@@ -1,0 +1,129 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Display2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Display5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Leds[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Leds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Leds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Leds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Seleccion",
+					"strict" : false
+				},
+				{
+					"name" : "Boton",
+					"strict" : false
+				},
+				{
+					"name" : "Reloj",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

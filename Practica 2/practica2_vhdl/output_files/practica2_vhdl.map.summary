@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Sep 02 00:16:42 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : practica2_vhdl
+Top-level Entity Name : practica2
+Family : MAX 10
+Total logic elements : 10
+    Total combinational functions : 9
+    Dedicated logic registers : 6
+Total registers : 6
+Total pins : 9
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

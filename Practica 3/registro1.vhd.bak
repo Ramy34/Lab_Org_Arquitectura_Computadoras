@@ -1,0 +1,23 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity registro1 is
+	Port(
+		reloj : in STD_LOGIC;
+		edo_sig : in std_logic_vector (2 downto 0);
+		direccion : out std_logic_vector (5 downto 0);
+		sw : in std_logic_vector ( 2 downto 0)
+		);
+end registro1;
+
+
+architecture Behavioral of registro1 is
+	begin
+		process(reloj)
+			if(rising_edge(reloj)) then
+				direccion <= edo_sig & sw;
+			end if;
+		end process;
+end Behavioral;

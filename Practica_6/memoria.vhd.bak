@@ -1,0 +1,22 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity memoria is
+	Port ( DIRECCION : in STD_LOGIC_VECTOR (2 downto 0);
+			 DATOS : out STD_LOGIC_VECTOR (13 downto 0));
+end memoria;
+
+architecture Behavioral of memoria is
+begin
+	process(DIRECCION)
+	begin
+		if   (DIRECCION = "000") then DATOS <= "00001110001000";
+		elsif(DIRECCION = "001") then DATOS <= "10100000110101";
+		elsif(DIRECCION = "010") then DATOS <= "11000001100110";
+		elsif(DIRECCION = "011") then DATOS <= "01000010001000";
+		elsif(DIRECCION = "100") then DATOS <= "11000001000100";
+		end if;	
+	end process;
+end Behavioral;

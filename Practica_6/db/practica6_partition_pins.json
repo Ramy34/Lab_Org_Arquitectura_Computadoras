@@ -1,0 +1,93 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "EDO_PRES[3]",
+					"strict" : false
+				},
+				{
+					"name" : "EDO_PRES[2]",
+					"strict" : false
+				},
+				{
+					"name" : "EDO_PRES[1]",
+					"strict" : false
+				},
+				{
+					"name" : "EDO_PRES[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SALIDAS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SALIDAS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SALIDAS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SALIDAS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "INT",
+					"strict" : false
+				},
+				{
+					"name" : "X",
+					"strict" : false
+				},
+				{
+					"name" : "Y",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "ENT_INT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ENT_TRANSF[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ENT_INT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ENT_TRANSF[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ENT_INT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ENT_TRANSF[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ENT_INT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ENT_TRANSF[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

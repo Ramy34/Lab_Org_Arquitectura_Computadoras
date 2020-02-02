@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'Reloj'
+Slack : -2.772
+TNS   : -46.390
+
+Type  : Slow 1200mV 85C Model Setup 'Selector'
+Slack : -1.552
+TNS   : -4.654
+
+Type  : Slow 1200mV 85C Model Hold 'Selector'
+Slack : 0.363
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'Reloj'
+Slack : 0.632
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Reloj'
+Slack : -3.000
+TNS   : -45.090
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Selector'
+Slack : -3.000
+TNS   : -7.209
+
+Type  : Slow 1200mV 0C Model Setup 'Reloj'
+Slack : -2.458
+TNS   : -39.132
+
+Type  : Slow 1200mV 0C Model Setup 'Selector'
+Slack : -1.325
+TNS   : -3.969
+
+Type  : Slow 1200mV 0C Model Hold 'Selector'
+Slack : 0.329
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'Reloj'
+Slack : 0.583
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Reloj'
+Slack : -3.000
+TNS   : -45.090
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Selector'
+Slack : -3.000
+TNS   : -7.209
+
+Type  : Fast 1200mV 0C Model Setup 'Reloj'
+Slack : -0.554
+TNS   : -3.158
+
+Type  : Fast 1200mV 0C Model Setup 'Selector'
+Slack : -0.049
+TNS   : -0.145
+
+Type  : Fast 1200mV 0C Model Hold 'Selector'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'Reloj'
+Slack : 0.228
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Reloj'
+Slack : -3.000
+TNS   : -33.996
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Selector'
+Slack : -3.000
+TNS   : -7.304
+
+------------------------------------------------------------

@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity registro2 is
+	Port(
+		sw : in STD_LOGIC;
+		edoPre : in STD_LOGIC_VECTOR(2 downto 0);
+		salidas : in STD_LOGIC_VECTOR(7 downto 0);
+		leds : out STD_LOGIC_VECTOR(7 downto 0));
+end registro2;
+
+
+architecture Behavioral of registro2 is
+	signal tmp : std_logic_vector(4 downto 0);
+	begin
+		process(sw)
+		begin
+			if(sw = '1') then
+				leds <= salidas;
+			else
+				tmp <= salidas(4 downto 0);
+				leds <= edoPre & tmp;
+			end if;
+		end process;
+end Behavioral;

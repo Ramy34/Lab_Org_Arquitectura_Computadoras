@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Presente_1",
+					"strict" : false
+				},
+				{
+					"name" : "Presente_0",
+					"strict" : false
+				},
+				{
+					"name" : "Siguiente_1",
+					"strict" : false
+				},
+				{
+					"name" : "Siguiente_0",
+					"strict" : false
+				},
+				{
+					"name" : "Salida",
+					"strict" : false
+				},
+				{
+					"name" : "Entrada",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Boton",
+					"strict" : false
+				},
+				{
+					"name" : "Reloj",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,37 @@
+|practica2
+Presente_1 <= practica2_vhdl:inst.p1
+Boton => inst5.IN0
+Reloj => sensa_boton:inst2.CLK
+Entrada => practica2_vhdl:inst.e
+Reset => inst3.IN0
+Presente_0 <= practica2_vhdl:inst.p0
+Siguiente_1 <= practica2_vhdl:inst.q1
+Siguiente_0 <= practica2_vhdl:inst.q0
+Salida <= practica2_vhdl:inst.s
+
+
+|practica2|practica2_vhdl:inst
+clk => epresente~1.DATAIN
+e => esiguiente.s1.DATAB
+e => esiguiente.s2.DATAB
+e => esiguiente.s3.DATAA
+e => q1.DATAA
+e => q0.DATAA
+e => epresente.s0.DATAIN
+reset => epresente~3.DATAIN
+p1 <= p1.DB_MAX_OUTPUT_PORT_TYPE
+p0 <= p0.DB_MAX_OUTPUT_PORT_TYPE
+q1 <= q1.DB_MAX_OUTPUT_PORT_TYPE
+q0 <= q0.DB_MAX_OUTPUT_PORT_TYPE
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|practica2|sensa_boton:inst2
+BOTON => ESIGUIENTE.DATAIN
+BOTON => RELOJ.DATAB
+CLK => ESIGUIENTE.CLK
+CLK => RELOJ~reg0.CLK
+RELOJ <= RELOJ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+EPRESENTE <= ESIGUIENTE.DB_MAX_OUTPUT_PORT_TYPE
+
+
